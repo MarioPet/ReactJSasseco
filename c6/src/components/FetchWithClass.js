@@ -40,7 +40,6 @@ class FetchWithClass extends React.Component {
     }
 
     render() {
-        console.log("STATE => ", this.state);
         return (
             <div id="fetch-class">
                 <h2>Users will list here...</h2>
