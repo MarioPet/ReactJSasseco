@@ -12,9 +12,9 @@ const PointC = () => {
 
     const [ completed, handleCompleted ] = useState(null);
 
-    HandleCompletedMaster = (e, id) => {
+    // HandleCompletedMaster = (e, id) => {
 
-    }
+    // }
 
     return (
         <div id="point-c">
