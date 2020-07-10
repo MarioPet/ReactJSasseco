@@ -15,7 +15,7 @@ const PointC = () => {
     // HandleCompletedMaster = (e, id) => {
 
     // }
-
+    
     return (
         <div id="point-c">
             <h2> My name is Point C</h2>

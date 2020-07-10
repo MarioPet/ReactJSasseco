@@ -4,7 +4,9 @@ import Header from "./Header";
 import Fetch from "./Fetch";
 import PointA from "./PointA";
 import PointC from "./PointC";
+import PointE from "./PointE";
 import User from "./User";
+import WeatherForecast from "./WeatherForecast"
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/point-b" component={Fetch} />
         <Route path="/point-c" component={PointC} />
         <Route path="/user" component={User} />
+        <Route path="/point-e" component={PointE} />
+        <Route path="/forecast" component={WeatherForecast} />
       </Switch>
     </div>
   );
